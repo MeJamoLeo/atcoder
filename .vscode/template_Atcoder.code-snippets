@@ -1,0 +1,60 @@
+{
+	// Place your AtCoder workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"boiler plate": {
+		"scope": "python",
+		"prefix": "_tmp",
+		"body": [
+			"from fractions import gcd",
+			"from collections import Counter, deque, defaultdict",
+			"from heapq import heappush, heappop, heappushpop, heapify, heapreplace, merge",
+			"from bisect import bisect_left, bisect_right, bisect, insort_left, insort_right, insort",
+			"from itertools import accumulate, product, permutations, combinations",
+			"",
+			"def main():",
+			"    $1 = ",
+			"",
+			"if __name__ == '__main__':",
+			"    main()"
+		],
+		"description": "template for AtCoder problems"
+	},
+	"scan integers": {
+		"scope": "python",
+		"prefix": "ii",
+		"body": "map(int, input().split())",
+		"description": "for multiple integer inputs"
+	},
+	"scan integers to list": {
+		"scope": "python",
+		"prefix": "lii",
+		"body": "list(map(int, input().split()))",
+		"description": "for multiple integer inputs into a list"
+	},
+	"scan multi-lines integers": {
+		"scope": "python",
+		"prefix": "mli",
+		"body": "[map(int, input().split()) for _ in range($1)]",
+		"description": "for multiple lines of integer inputs into a list"
+	},
+	"scan strings": {
+		"scope": "python",
+		"prefix": "ss",
+		"body": "input().split()",
+		"description": "for multiple string inputs"
+	}
+}
