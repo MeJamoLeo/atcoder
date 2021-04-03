@@ -1,4 +1,4 @@
-# https://atcoder.jp/contests/abc074/tasks/abc074_b
+# https://atcoder.jp/co/abc074/tasks/abc074_b
 N = int(input())
 K = int(input())
 X = list(map(int,input().split()))
